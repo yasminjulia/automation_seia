@@ -1,0 +1,510 @@
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<link rel="shortcut icon" href="/resources/img/favicon.ico" type="image/x-icon">
+
+	<title>SEIA 4.6.3</title>
+
+	<link rel="stylesheet" href="/resources/css/style-form.css">
+	<link rel="stylesheet" href="/resources/css/stylebasics.css">
+	<link rel="stylesheet" href="/resources/css/seia.css">
+	<link rel="stylesheet" href="/resources/css/jquery.modal.css">
+
+	<script type="text/javascript" async="" src="https://www.gstatic.com/recaptcha/releases/6TWYOsKNtRFaLeFqv5xN42-l/recaptcha__pt_br.js"></script><script type="text/javascript" async="" src="http://www.google-analytics.com/ga.js"></script><script type="text/javascript">
+	
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-40192590-1']);
+			_gaq.push(['_trackPageview']);
+			
+			(function() {
+				var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			})();
+			
+			
+			 var _paq = _paq || [];
+			_paq.push(["trackPageView"]);
+			_paq.push(["enableLinkTracking"]);
+
+  (function() {
+		var url = window.location.protocol + '//' + window.location.host;
+		if (url == 'https://sistema.seia.ba.gov.br' || url == 'http://sistema.seia.ba.gov.br') {
+    		var u = "http://programas.inema.ba.gov.br/piwik/";
+    		_paq.push(["setTrackerUrl", u+"piwik.php"]);
+    		_paq.push(["setSiteId", "37"]);
+    		var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+    		g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+		}
+  })();
+			
+		</script>
+
+	<script src="https://www.google.com/recaptcha/api.js"></script>
+<link type="text/css" rel="stylesheet" href="/javax.faces.resource/theme.css.xhtml?ln=primefaces-aristo">
+<link type="text/css" rel="stylesheet" href="/javax.faces.resource/dialog/dialog.css.xhtml?ln=primefaces&amp;v=3.0.M3">
+<link type="text/css" rel="stylesheet" href="/javax.faces.resource/jquery/ui/jquery-ui.css.xhtml?ln=primefaces&amp;v=3.0.M3">
+<script type="text/javascript" src="/javax.faces.resource/jquery/jquery.js.xhtml?ln=primefaces&amp;v=3.0.M3"></script>
+<script type="text/javascript" src="/javax.faces.resource/jquery/ui/jquery-ui.js.xhtml?ln=primefaces&amp;v=3.0.M3"></script>
+<script type="text/javascript" src="/javax.faces.resource/core/core.js.xhtml?ln=primefaces&amp;v=3.0.M3"></script>
+<script type="text/javascript" src="/javax.faces.resource/dialog/dialog.js.xhtml?ln=primefaces&amp;v=3.0.M3"></script>
+<link type="text/css" rel="stylesheet" href="/javax.faces.resource/forms/forms.css.xhtml?ln=primefaces&amp;v=3.0.M3">
+<script type="text/javascript" src="/javax.faces.resource/calendar/calendar.js.xhtml?ln=primefaces&amp;v=3.0.M3"></script>
+<script type="text/javascript" src="/javax.faces.resource/button/button.js.xhtml?ln=primefaces&amp;v=3.0.M3"></script>
+<link type="text/css" rel="stylesheet" href="/javax.faces.resource/growl/assets/growl.css.xhtml?ln=primefaces&amp;v=3.0.M3">
+<script type="text/javascript" src="/javax.faces.resource/growl/growl.js.xhtml?ln=primefaces&amp;v=3.0.M3"></script>
+<script type="text/javascript" src="/javax.faces.resource/ajaxstatus/ajaxstatus.js.xhtml?ln=primefaces&amp;v=3.0.M3"></script>
+<link type="text/css" rel="stylesheet" href="/javax.faces.resource/wijmo/wijmo.css.xhtml?ln=primefaces&amp;v=3.0.M3">
+<link type="text/css" rel="stylesheet" href="/javax.faces.resource/panel/panel.css.xhtml?ln=primefaces&amp;v=3.0.M3">
+<script type="text/javascript" src="/javax.faces.resource/wijmo/wijmo.js.xhtml?ln=primefaces&amp;v=3.0.M3"></script>
+<script type="text/javascript" src="/javax.faces.resource/panel/panel.js.xhtml?ln=primefaces&amp;v=3.0.M3"></script>
+<script type="text/javascript" src="/javax.faces.resource/forms/forms.js.xhtml?ln=primefaces&amp;v=3.0.M3"></script>
+<script type="text/javascript" src="/javax.faces.resource/inputmask/inputmask.js.xhtml?ln=primefaces&amp;v=3.0.M3"></script>
+<script type="text/javascript" src="/javax.faces.resource/calendar-locales.js.xhtml?ln=js"></script>
+<script type="text/javascript" src="/javax.faces.resource/seia.js.xhtml?ln=js"></script>
+<script type="text/javascript" src="/javax.faces.resource/javascriptMenu.js.xhtml?ln=js"></script>
+<script type="text/javascript" src="/javax.faces.resource/jquery.modal.js.xhtml?ln=js"></script>
+<script type="text/javascript" src="/javax.faces.resource/jquery-seia.js.xhtml?ln=js"></script></head><body><div id="_dlgVisualizarNotificacaoUsuario2" class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-draggable" style="width: 750px; height: auto; z-index: 1000; top: 211px; left: 291px; display: none; visibility: visible;"><div class="ui-dialog-content ui-widget-content" style="height: 245px;"></div></div><script type="text/javascript">$(function() {dlgVisualizarNotificacaoUsuario2 = new PrimeFaces.widget.Dialog('_dlgVisualizarNotificacaoUsuario2', {autoOpen:false,resizable:false,modal:true,width:750,height:245,dynamic:true,position:'center'});});</script><div id="dlgFaleConosco" class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-draggable" style="text-align: center; border-radius: 10px; width: auto; height: auto; z-index: 1000; top: 19px; left: 385px; display: none; visibility: visible;"><div class="ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix"><span class="ui-dialog-title"></span><a href="#" class="ui-dialog-titlebar-icon ui-dialog-titlebar-close ui-corner-all"><span class="ui-icon ui-icon-closethick"></span></a></div><div class="ui-dialog-content ui-widget-content" style="height: auto;">
+	
+	<style type="text/css">
+		.faleconosco-modal {
+			width: 400px;
+			height: 535px;
+			background-color: #ffffff;
+			border-radius: 10px;
+			-webkit-border-radius: 10px;
+			-moz-border-radius: 10px;
+			font-family: Verdana , Tahoma, Arial, 'sans serif';
+			padding: 35px 70px;	
+			position: relative;
+			margin: 0 auto;
+		}
+	  	
+	  	.title-flcns {
+	  		color: #5d7750;
+	  		font-size: 17.5pt;
+	  		text-align: center;
+			margin-bottom: 55px;
+	  	}
+	
+	  	.contacts-flcns {
+	  		color: #585858;
+	  		font-size: 10pt;
+	  		text-align: left;
+	  	}
+	
+	  	.close-btn {
+			position: absolute;
+			background-image: url(close-btn.png);
+			width: 16px;
+			height: 16px;
+			text-indent: -9999px;
+			margin-left: 415px; 
+	  	}
+	
+	  	.close-btn:hover {
+	  		background-position: 0 -16px;
+	  	}		
+	</style>
+	
+	<div class="faleconosco-modal">
+		<p class="title-flcns">Fale conosco</p>
+		<p class="contacts-flcns">
+			<b>Call Center</b>: 0800-0711400<br><br>
+			<b>Disque denúncia</b> 0800-0711400<br>
+			E-mail: denuncia@inema.ba.gov.br<br><br>
+			
+			<b>Central de Atendimento- ATEND</b>: (71) 3118-4509/4510<br>
+			E-mail: atend@inema.ba.gov.br<br><br>
+			
+			<b>Service Desk INEMA</b>: (71) 3118-4544<br>
+			E-mail: atendimento.seia@inema.ba.gov.br<br><br>
+			
+			<b>Dúvidas sobre CEAPD</b>: (71) 3118-4454<br>
+			E-mail: suporte.sol@inema.ba.gov.br<br><br>
+			
+			<b>Dúvidas sobre RAF</b>: (71) 3118-4384<br>
+			E-mail: suporte.sol@inema.ba.gov.br<br><br>
+			
+			<b>Dúvidas sobre outorga</b>: (71) 3118-4509/4510<br>
+			E-mail: atend@inema.ba.gov.br<br><br>
+			
+			<b>Ouvidoria</b> 0800-2841400 ou (71) 3118-4554<br>
+			E-mail: ouvidoria@inema.ba.gov.br<br><br>
+			
+			*0800 disponível apenas para quem esta na região da Bahia.
+		
+		</p>
+	</div></div></div><script type="text/javascript">$(function() {dlgFaleConosco = new PrimeFaces.widget.Dialog('dlgFaleConosco', {autoOpen:false,resizable:false,modal:true,position:'center'});});</script>
+		
+
+		<div id="header">
+			
+			<div id="logo"></div>
+			<div id="tema"></div>
+		</div>
+		<div id="borda_top">
+			<div id="login">
+<form id="j_idt34" name="j_idt34" method="post" action="/login.xhtml" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="j_idt34" value="j_idt34">
+
+					<script>
+							var expandAll = function(){
+								$('.ui-row-toggler').each(function(el){ $(this).click();});
+							}
+						</script><input type="hidden" name="javax.faces.ViewState" id="javax.faces.ViewState" value="-7000673339506418383:1016826261939660602" autocomplete="off">
+</form>
+			</div>
+		</div>
+
+		<div id="body_geral">
+			<div id="menu">
+			</div>
+
+			<div id="cont_princ"><span id="growMsg"></span><script type="text/javascript">$(function(){widget_growMsg = new PrimeFaces.widget.Growl('growMsg',[]);});</script>
+
+				
+				<div class="titulo">
+	
+	<script>
+	   $(document).ready(function() {
+	    	//função que valida dos caracteres do campos inpLogin da dialog Usuário Externo
+	    	$(this).delegate('#formUsuarioExterno .has_login','keyup',function() { 
+		    	var texto = $('#formUsuarioExterno .has_login').val();
+		    	texto = texto.replace(/[^a-z0-9.]+/gi,'');
+		    	texto = texto.toLowerCase();
+	    		$('#formUsuarioExterno .has_login').val(texto);    		
+		    });
+	    });
+	    
+	    $(window).load(function() {
+	    	dialogAlertaIndex.show();
+	    		
+		});	    
+	</script>
+		<h3>SEIA | Sistema Estadual de Informações Ambientais e de
+			Recursos Hídricos </h3>
+				</div>
+				
+
+				<br><div id="j_idt210"></div><script type="text/javascript">widget_j_idt210 = new PrimeFaces.widget.AjaxStatus('j_idt210');widget_j_idt210.bindCallback('ajaxStart',function(){abrirModal('#statusDialog');});widget_j_idt210.bindCallback('ajaxSuccess',function(){fecharModal('#statusDialog');});</script>
+				<div id="statusDialog" style="width: 32px;" class="modal"><img id="j_idt212" src="/resources/img/loading5.gif" alt="">
+				</div>
+		
+		<br>
+		<div id="TextoLogin">
+			<p style="text-align: justify;">
+				Para acessar a consulta pública ou outras funções do SEIA, siga os passos:
+			</p>
+			<p style="text-align: justify;text-indent: 30px;">
+				1 - Cadastre-se como usuário clicando <a id="lnkUsuarioExterno" href="/paginas/controle-acesso/usuarioExterno.xhtml">aqui</a>;
+			</p>
+			<p style="text-align: justify;text-indent: 30px;">
+				2 - Será enviado um e-mail para ativação do seu usuário;
+			</p>
+			<p style="text-align: justify;text-indent: 30px;">
+				3 - Informe ao lado seu login/senha para entrar no sistema.
+					
+			</p>
+			<p style="text-align: justify;">
+				Problemas em ativar seu usuário? <a id="lnkProblemaUsuario" onclick="dialogProblemaEmailUsuario.show()" href="#">Clique aqui</a>.
+			</p>
+
+			<p style="text-align: justify;">
+</p><form id="frmReativarUsuario" name="frmReativarUsuario" method="post" action="/login.xhtml" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="frmReativarUsuario" value="frmReativarUsuario">
+  
+				<span style="font-size: 12px;">Deseja reativar seu usuário?</span><a id="frmReativarUsuario:lnkReativarUsuario" href="javascript:void(0);" class="ui-commandlink" onclick="PrimeFaces.ab({formId:'frmReativarUsuario',source:'frmReativarUsuario:lnkReativarUsuario',process:'frmReativarUsuario:lnkReativarUsuario',update:'formReativarUsuarioInativo:panelReativarUsuarioInativo',oncomplete:function(xhr, status, args){dialogReativarUsuario.show();}});" style="font-size:12px;"> Clique aqui.</a><input type="hidden" name="javax.faces.ViewState" id="javax.faces.ViewState" value="-7000673339506418383:1016826261939660602" autocomplete="off">
+</form>
+			<p></p>
+			
+			<p style="text-align: justify;">
+				Deseja alterar o e-mail de contato para recuperar o seu login e senha?
+				 <a id="lnkAlterarEmail" onclick="dialogProblemaEmailUsuario01.show()" href="#">Clique aqui</a>.
+			</p>
+
+			<p style="text-align: justify;">
+				Dúvidas em como utilizar o SEIA? <a id="lnkManualSeia" href="resources/Manual_SEIA_UE.pdf" target="_blank">Clique aqui</a> para
+				visualizar o manual.
+			</p>
+		</div>
+
+		
+		<div id="BoxLogin"><div id="pnlLogin" class="ui-panel ui-widget ui-widget-content ui-corner-all" style="width: 281px; min-height: 180px;height:auto; background-color: #EDE9EF; border: 0px solid #fff;  no-repeat left scroll;"><div id="pnlLogin_content" class="ui-panel-content ui-widget-content">
+
+				<center><table>
+<tbody>
+<tr>
+<td><span style="color: red; font-weight: bold;">Por favor preencha o captcha</span></td>
+</tr>
+</tbody>
+</table>
+
+				</center>
+				<center>
+				</center>
+
+				<form action="j_spring_security_check" method="post"><div style="margin-top:5px;"><label for="j_username" style="color: #4D683F; font-weight: bold; font-size: 12px;">
+Usuário</label></div><div style="margin-top:5px;"><input id="j_username" type="text" name="j_username" style="width:95%"></div><div style="margin-top:5px;"><label for="j_password" style="color: #4D683F; font-weight: bold; font-size: 12px;">
+Senha </label></div><div style="margin-top:5px;"><input id="j_password" type="password" name="j_password" value="" style="width:95%"></div><div style="margin-top:5px;">
+						<div class="g-recaptcha" data-sitekey="6LfrW6cUAAAAACvNjvf39GH_azSWhiZyiBJ2S1d_" style="transform:scale(0.85);-webkit-transform:scale(0.85);transform-origin:0 0;-webkit-transform-origin:0 0;"><div style="width: 304px; height: 78px;"><div><iframe src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LfrW6cUAAAAACvNjvf39GH_azSWhiZyiBJ2S1d_&amp;co=aHR0cDovLzEwLjkwLjIuNjU6ODA.&amp;hl=pt-BR&amp;v=6TWYOsKNtRFaLeFqv5xN42-l&amp;size=normal&amp;cb=wo5tk74ukyhi" width="304" height="78" role="presentation" name="a-7tecs7ob277a" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div><iframe style="display: none;"></iframe></div></div><div style="margin-top:5px;"><input id="btnEntrar" type="submit" name="btnEntrar" value="Entrar" style="float: right;" class="buttonLogin"></div>
+					
+				</form>
+<form id="frmLinks" name="frmLinks" method="post" action="/login.xhtml" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="frmLinks" value="frmLinks">
+<div style="margin-top:-5px;"><a id="frmLinks:lnkEsqueciSenha" href="javascript:void(0);" class="ui-commandlink" onclick="PrimeFaces.ab({formId:'frmLinks',source:'frmLinks:lnkEsqueciSenha',process:'frmLinks:lnkEsqueciSenha',update:'formEsquecimentoSenha:panelEsquecimentoSenha',oncomplete:function(xhr, status, args){dlgEsqueciSenha.show();}});" title="Esqueci a senha">Esqueci a senha</a></div><div style="margin-top:5px;"><a id="frmLinks:lnkEsqueciUsuario" href="javascript:void(0);" class="ui-commandlink" onclick="PrimeFaces.ab({formId:'frmLinks',source:'frmLinks:lnkEsqueciUsuario',process:'frmLinks:lnkEsqueciUsuario',update:'formRecuperarUsuario:panelRecuperarUsuario',oncomplete:function(xhr, status, args){dlgEsqueciUsuario.show();}});" title="Esqueci o usuário">Esqueci o usuário</a></div><input type="hidden" name="javax.faces.ViewState" id="javax.faces.ViewState" value="-7000673339506418383:1016826261939660602" autocomplete="off">
+</form></div></div><script type="text/javascript">widget_pnlLogin = new PrimeFaces.widget.Panel('pnlLogin', {visible:true});</script>
+			<br>
+		</div><div id="dialogEsqueciSenha" class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-draggable" style="width: 180px; height: auto; z-index: 1000; top: 249px; left: 576px; display: none; visibility: visible;"><div class="ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix"><span class="ui-dialog-title">Esqueci a senha</span></div><div class="ui-dialog-content ui-widget-content" style="height: auto;">
+<form id="formEsquecimentoSenha" name="formEsquecimentoSenha" method="post" action="/login.xhtml" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="formEsquecimentoSenha" value="formEsquecimentoSenha">
+<table id="formEsquecimentoSenha:panelEsquecimentoSenha">
+<tbody>
+<tr>
+<td><label>
+* Login:</label></td>
+</tr>
+<tr>
+<td><input id="formEsquecimentoSenha:inputLogin" name="formEsquecimentoSenha:inputLogin" type="text" value="" maxlength="20" style="width: 140px;" class="ui-inputfield ui-inputtext ui-widget ui-state-default ui-corner-all"><script type="text/javascript">widget_formEsquecimentoSenha_inputLogin = new PrimeFaces.widget.InputText({id:'formEsquecimentoSenha:inputLogin'});</script></td>
+</tr>
+<tr>
+<td><label>
+* CPF:</label></td>
+</tr>
+<tr>
+<td><input id="formEsquecimentoSenha:inputCpf" name="formEsquecimentoSenha:inputCpf" type="text" value="" style="width: 140px;" class="ui-inputfield ui-inputmask ui-widget ui-state-default ui-corner-all"><script type="text/javascript">widget_formEsquecimentoSenha_inputCpf = new PrimeFaces.widget.InputMask('formEsquecimentoSenha:inputCpf', {mask:'999.999.999-99'});</script></td>
+</tr>
+<tr>
+<td><button id="formEsquecimentoSenha:j_idt244" name="formEsquecimentoSenha:j_idt244" onclick="dlgEsqueciSenha.hide();PrimeFaces.ab({formId:'formEsquecimentoSenha',source:'formEsquecimentoSenha:j_idt244',process:'@all'});return false;" type="submit" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" aria-disabled="false"><span class="ui-button-text">Cancelar</span></button><script type="text/javascript">widget_formEsquecimentoSenha_j_idt244 = new PrimeFaces.widget.CommandButton('formEsquecimentoSenha:j_idt244', {});</script><button id="formEsquecimentoSenha:j_idt245" name="formEsquecimentoSenha:j_idt245" onclick="PrimeFaces.ab({formId:'formEsquecimentoSenha',source:'formEsquecimentoSenha:j_idt245',process:'@all',update:'formEsquecimentoSenha:panelEsquecimentoSenha',oncomplete:function(xhr, status, args){validaTela(xhr, status, args, dlgEsqueciSenha);}});return false;" type="submit" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" aria-disabled="false"><span class="ui-button-text">Enviar</span></button><script type="text/javascript">widget_formEsquecimentoSenha_j_idt245 = new PrimeFaces.widget.CommandButton('formEsquecimentoSenha:j_idt245', {});</script></td>
+</tr>
+</tbody>
+</table>
+<input type="hidden" name="javax.faces.ViewState" id="javax.faces.ViewState" value="-7000673339506418383:1016826261939660602" autocomplete="off">
+</form></div></div><script type="text/javascript">$(function() {dlgEsqueciSenha = new PrimeFaces.widget.Dialog('dialogEsqueciSenha', {autoOpen:false,resizable:false,modal:true,width:180});});</script><div id="dialogEsqueciUsuario" class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-draggable" style="width: 350px; height: auto; z-index: 1000; top: 249px; left: 491px; display: none; visibility: visible;"><div class="ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix"><span class="ui-dialog-title">Esqueci o usuário</span></div><div class="ui-dialog-content ui-widget-content" style="height: auto;">
+<form id="formRecuperarUsuario" name="formRecuperarUsuario" method="post" action="/login.xhtml" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="formRecuperarUsuario" value="formRecuperarUsuario">
+<table id="formRecuperarUsuario:panelRecuperarUsuario">
+<tbody>
+<tr>
+<td><label>
+* CPF:</label></td>
+</tr>
+<tr>
+<td><input id="formRecuperarUsuario:inputMaskCpf" name="formRecuperarUsuario:inputMaskCpf" type="text" value="" style="width: 140px;" class="ui-inputfield ui-inputmask ui-widget ui-state-default ui-corner-all"><script type="text/javascript">widget_formRecuperarUsuario_inputMaskCpf = new PrimeFaces.widget.InputMask('formRecuperarUsuario:inputMaskCpf', {mask:'999.999.999-99'});</script></td>
+</tr>
+<tr>
+<td><label>
+* Email:</label></td>
+</tr>
+<tr>
+<td><input id="formRecuperarUsuario:inputTxtEmail" name="formRecuperarUsuario:inputTxtEmail" type="text" value="" maxlength="70" style="width: 310px;" class="ui-inputfield ui-inputtext ui-widget ui-state-default ui-corner-all"><script type="text/javascript">widget_formRecuperarUsuario_inputTxtEmail = new PrimeFaces.widget.InputText({id:'formRecuperarUsuario:inputTxtEmail'});</script></td>
+</tr>
+<tr>
+<td><button id="formRecuperarUsuario:j_idt249" name="formRecuperarUsuario:j_idt249" onclick="PrimeFaces.ab({formId:'formRecuperarUsuario',source:'formRecuperarUsuario:j_idt249',process:'@all',update:'formRecuperarUsuario:panelRecuperarUsuario',oncomplete:function(xhr, status, args){validaTela(xhr, status, args, dlgEsqueciSenha);}});return false;" style="float: right;" type="submit" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" aria-disabled="false"><span class="ui-button-text">Enviar</span></button><script type="text/javascript">widget_formRecuperarUsuario_j_idt249 = new PrimeFaces.widget.CommandButton('formRecuperarUsuario:j_idt249', {});</script><button id="formRecuperarUsuario:j_idt250" name="formRecuperarUsuario:j_idt250" onclick="dlgEsqueciUsuario.hide();PrimeFaces.ab({formId:'formRecuperarUsuario',source:'formRecuperarUsuario:j_idt250',process:'@all'});return false;" style="float: right;" type="submit" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" aria-disabled="false"><span class="ui-button-text">Cancelar</span></button><script type="text/javascript">widget_formRecuperarUsuario_j_idt250 = new PrimeFaces.widget.CommandButton('formRecuperarUsuario:j_idt250', {});</script></td>
+</tr>
+</tbody>
+</table>
+<input type="hidden" name="javax.faces.ViewState" id="javax.faces.ViewState" value="-7000673339506418383:1016826261939660602" autocomplete="off">
+</form></div></div><script type="text/javascript">$(function() {dlgEsqueciUsuario = new PrimeFaces.widget.Dialog('dialogEsqueciUsuario', {autoOpen:false,resizable:false,modal:true,width:350});});</script><div id="dialogProblemaEmailUsuario" class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-draggable" style="width: 420px; height: auto; z-index: 1000; top: 187px; left: 456px; display: none; visibility: visible;"><div class="ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix"><span class="ui-dialog-title">Problemas ao ativar Usuários</span><a href="#" class="ui-dialog-titlebar-icon ui-dialog-titlebar-close ui-corner-all"><span class="ui-icon ui-icon-closethick"></span></a></div><div class="ui-dialog-content ui-widget-content" style="height: 270px;">
+<form id="formProblemaEmailUsuario" name="formProblemaEmailUsuario" method="post" action="/login.xhtml" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="formProblemaEmailUsuario" value="formProblemaEmailUsuario">
+<table id="formProblemaEmailUsuario:panelProblemas_reativar_usuario">
+<tbody>
+<tr>
+<td><label>
+Informe o CPF e o endereço do email cadastrado em sua conta de usuário, para que seja renviado o email de ativação do usuário</label></td>
+</tr>
+<tr>
+<td>
+			<br>
+			<br></td>
+</tr>
+<tr>
+<td><label>
+* CPF:</label></td>
+</tr>
+<tr>
+<td><input id="formProblemaEmailUsuario:inpCpf" name="formProblemaEmailUsuario:inpCpf" type="text" value="" style="width: 160px;" class="ui-inputfield ui-inputmask ui-widget ui-state-default ui-corner-all"><script type="text/javascript">widget_formProblemaEmailUsuario_inpCpf = new PrimeFaces.widget.InputMask('formProblemaEmailUsuario:inpCpf', {mask:'999.999.999-99'});</script></td>
+</tr>
+<tr>
+<td>
+			<br></td>
+</tr>
+<tr>
+<td><label>
+* Email:</label></td>
+</tr>
+<tr>
+<td><input id="formProblemaEmailUsuario:j_idt256" name="formProblemaEmailUsuario:j_idt256" type="text" value="" maxlength="70" style="width: 348px;" class="ui-inputfield ui-inputtext ui-widget ui-state-default ui-corner-all"><script type="text/javascript">widget_formProblemaEmailUsuario_j_idt256 = new PrimeFaces.widget.InputText({id:'formProblemaEmailUsuario:j_idt256'});</script></td>
+</tr>
+<tr>
+<td>
+			<br></td>
+</tr>
+<tr>
+<td><button id="formProblemaEmailUsuario:j_idt259" name="formProblemaEmailUsuario:j_idt259" onclick="PrimeFaces.ab({formId:'formProblemaEmailUsuario',source:'formProblemaEmailUsuario:j_idt259',process:'@all',update:'formProblemaEmailUsuario',oncomplete:function(xhr, status, args){validaTela(xhr, status, args, dialogProblemaEmailUsuario);}});return false;" type="submit" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" aria-disabled="false"><span class="ui-button-text">Reenviar</span></button><script type="text/javascript">widget_formProblemaEmailUsuario_j_idt259 = new PrimeFaces.widget.CommandButton('formProblemaEmailUsuario:j_idt259', {});</script></td>
+</tr>
+</tbody>
+</table>
+<input type="hidden" name="javax.faces.ViewState" id="javax.faces.ViewState" value="-7000673339506418383:1016826261939660602" autocomplete="off">
+</form></div></div><script type="text/javascript">$(function() {dialogProblemaEmailUsuario = new PrimeFaces.widget.Dialog('dialogProblemaEmailUsuario', {autoOpen:false,resizable:false,modal:true,width:420,height:270,behaviors:{close:function(event) {PrimeFaces.ab({source:'dialogProblemaEmailUsuario',process:'dialogProblemaEmailUsuario',event:'close'}, arguments[1]);}}});});</script><div id="dialogProblemaEmailUsuario01" class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-draggable" style="width: 550px; height: auto; z-index: 1000; top: 184px; left: 391px; display: none; visibility: visible;"><div class="ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix"><span class="ui-dialog-title">Orientações para substituição de e-mail para recuperação de login/senha</span><a href="#" class="ui-dialog-titlebar-icon ui-dialog-titlebar-close ui-corner-all"><span class="ui-icon ui-icon-closethick"></span></a></div><div class="ui-dialog-content ui-widget-content" style="height: 275px;">
+
+		<div style="width: 500px; display: contents;">
+		
+			<p style="text-align: justify; line-height: 11px; font-weight:bold; margin:10px;" class="green">
+				Prezado(a) usuário(a),<br>
+			</p>
+			
+			 
+				<p style="text-align: justify; line-height: 11px;   margin:10px;">			
+				Visando a agilidade e melhor atedimento, a partir do dia 07/11/2019 toda solicitação de alteração de
+				e-mail do acesso ao sistema SEIA deverá ser enviada para o e-mail
+				alteracaoemailseia@inema.ba.gov.br				
+				</p>
+				<p style="text-align: justify; line-height: 13px; font-weight:700; margin:10px;" class="grey">
+				Seguem as instruções para o envio do e-mail:
+				</p>				
+				<p style="text-align: justify; line-height: 11px;   margin:10px;">
+				1. Escrever no título do e-mail: ALTERAÇÃO DE E-MAIL NO SEIA;
+				</p>				
+				<p style="text-align: justify; line-height: 11px;   margin:10px;">
+				2. É necessário escrever no corpo do e-mail o CPF do usuário para o qual se solicita mudança de e-mail,
+				bem como o novo e-mail indicado para substituição;
+				</p>				
+				<p style="text-align: justify; line-height: 11px;  margin:10px;">
+				3. Anexar ao e-mail arquivo com a digitalização do documento de identificação original (no documento
+				deve constar o número do CPF);
+				</p>				
+				<p style="text-align: justify; line-height: 11px;   margin:10px;">
+				4. Caso quem envie o e-mail não seja o próprio solicitante, também deverão ser enviados anexos uma
+				procuração devidamente assinada pelo Requerente e um arquivo com a digitalização de documento de
+				identificação original do procurador (no documento deve constar o número do CPF).
+				</p>				
+				<p style="text-align: justify; line-height: 11px; font-weight:bolder;  margin:10px;">
+				Obs.: As solicitações que não estiverem de acordo com as orientações não serão atendidas.	
+				</p>		 
+			 
+ 
+		</div></div></div><script type="text/javascript">$(function() {dialogProblemaEmailUsuario01 = new PrimeFaces.widget.Dialog('dialogProblemaEmailUsuario01', {autoOpen:false,resizable:false,modal:true,width:550,height:275});});</script><div id="dialogReativarUsuario" class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-draggable" style="width: 420px; height: auto; z-index: 1000; top: 187px; left: 456px; display: none; visibility: visible;"><div class="ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix"><span class="ui-dialog-title">Reativar usuário inativo</span><a href="#" class="ui-dialog-titlebar-icon ui-dialog-titlebar-close ui-corner-all"><span class="ui-icon ui-icon-closethick"></span></a></div><div class="ui-dialog-content ui-widget-content" style="height: 270px;">
+<form id="formReativarUsuarioInativo" name="formReativarUsuarioInativo" method="post" action="/login.xhtml" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="formReativarUsuarioInativo" value="formReativarUsuarioInativo">
+<table id="formReativarUsuarioInativo:panelReativarUsuarioInativo">
+<tbody>
+<tr>
+<td><label>
+Insira CPF, Email e clique no botão reativar para recuperar usuário inativo.</label></td>
+</tr>
+<tr>
+<td>
+			<br>
+			<br></td>
+</tr>
+<tr>
+<td><label>
+* CPF:</label></td>
+</tr>
+<tr>
+<td><input id="formReativarUsuarioInativo:inpCpf" name="formReativarUsuarioInativo:inpCpf" type="text" value="" style="width: 160px;" class="ui-inputfield ui-inputmask ui-widget ui-state-default ui-corner-all"><script type="text/javascript">widget_formReativarUsuarioInativo_inpCpf = new PrimeFaces.widget.InputMask('formReativarUsuarioInativo:inpCpf', {mask:'999.999.999-99'});</script></td>
+</tr>
+<tr>
+<td>
+			<br></td>
+</tr>
+<tr>
+<td><label>
+* Email:</label></td>
+</tr>
+<tr>
+<td><input id="formReativarUsuarioInativo:j_idt266" name="formReativarUsuarioInativo:j_idt266" type="text" value="" maxlength="70" style="width: 348px;" class="ui-inputfield ui-inputtext ui-widget ui-state-default ui-corner-all"><script type="text/javascript">widget_formReativarUsuarioInativo_j_idt266 = new PrimeFaces.widget.InputText({id:'formReativarUsuarioInativo:j_idt266'});</script></td>
+</tr>
+<tr>
+<td>
+			<br></td>
+</tr>
+<tr>
+<td><button id="formReativarUsuarioInativo:j_idt269" name="formReativarUsuarioInativo:j_idt269" onclick="PrimeFaces.ab({formId:'formReativarUsuarioInativo',source:'formReativarUsuarioInativo:j_idt269',process:'@all',update:'formReativarUsuarioInativo:panelReativarUsuarioInativo',oncomplete:function(xhr, status, args){validaTela(xhr, status, args, dialogReativarUsuario);}});return false;" style="float: right;" type="submit" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" aria-disabled="false"><span class="ui-button-text">Reativar</span></button><script type="text/javascript">widget_formReativarUsuarioInativo_j_idt269 = new PrimeFaces.widget.CommandButton('formReativarUsuarioInativo:j_idt269', {});</script></td>
+</tr>
+</tbody>
+</table>
+<input type="hidden" name="javax.faces.ViewState" id="javax.faces.ViewState" value="-7000673339506418383:1016826261939660602" autocomplete="off">
+</form></div></div><script type="text/javascript">$(function() {dialogReativarUsuario = new PrimeFaces.widget.Dialog('dialogReativarUsuario', {autoOpen:false,resizable:false,modal:true,width:420,height:270});});</script><div id="_dialogAlertaIndex" class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-draggable" style="width: 550px; height: auto; z-index: 1001; top: 139px; left: 391px; visibility: visible;"><div class="ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix"><span class="ui-dialog-title">Lembretes</span><a href="#" class="ui-dialog-titlebar-icon ui-dialog-titlebar-close ui-corner-all"><span class="ui-icon ui-icon-closethick"></span></a></div><div class="ui-dialog-content ui-widget-content" style="height: 365px;">
+<form id="j_idt270" name="j_idt270" method="post" action="/login.xhtml" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="j_idt270" value="j_idt270">
+
+		<div style="width: 500px; display: contents;">
+		
+			<p style="text-align: justify; line-height: 16px; font-weight:bold; margin:10px;" class="green">
+				Prezado(a) usuário(a),<br>
+			</p>
+			
+			<p style="text-align: justify; line-height: 16px; margin:10px;">
+				A partir do dia 14/03/2019 será possível visualizar os limites dos imóveis rurais já cadastrados no entorno do seu imóvel. 
+				Verifique a aba "Limite do imóvel" e visualize a situação do seu cadastro. 
+				Caso haja algum problema de sobreposição, esta nova funcionalidade pode ser de grande auxílio para a finalização correta do seu cadastro!
+			</p>
+			
+			<hr style="width: 96%; margin:10px;">
+			
+			
+			
+			<p style="text-align: justify; line-height: 16px; margin:10px;">
+				Verifique também se sua atividade ou empreendimento está enquadrado como de impacto local (Resolução CEPRAM nº 4.327 de 31 de outubro de 2013). 
+				Caso positivo, acesse a página do
+				<a href="http://www.meioambiente.ba.gov.br/modules/conteudo/conteudo.php?conteudo=162" title="PROGAC" target="_blank">Programa Gestão Ambiental Compartilhada</a>,
+				selecione a aba GAC, e utilize os filtros disponíveis (Município, Consórcio, Situação ou Nível) para verificar se o município declarou a 
+				capacidade ou a falta de capacidade para o licenciamento ambiental, conforme Resolução CEPRAM. Se o município declarou que é capaz, 
+				solicite o licenciamento pelo respectivo município.
+			</p>
+	
+			<hr style="width: 96%; margin:10px;">
+			
+			<p style="text-align: justify; line-height: 16px; margin:10px;">
+				Lembramos ainda que as consultas aos processos abertos anteriormente do dia 06/07/12
+				poderão ser realizadas normalmente na tela inicial do Portal SEIA, (em consultas de processos) 
+				ou clicando <a href="http://www.inema.ba.gov.br/sol/servicos/consultaProcesso" title="Inema" target="_blank">aqui</a>.
+			</p>
+			
+			<p style="margin-left:10px;">Agradecemos a compreensão.</p>
+		</div><input type="hidden" name="javax.faces.ViewState" id="javax.faces.ViewState" value="-7000673339506418383:1016826261939660602" autocomplete="off">
+</form></div></div><script type="text/javascript">$(function() {dialogAlertaIndex = new PrimeFaces.widget.Dialog('_dialogAlertaIndex', {autoOpen:false,resizable:false,modal:true,width:550,height:365,position:'center'});});</script>
+				
+			</div><script type="text/javascript">var RecaptchaOptions = {theme:"red",lang:"en"};</script><script type="text/javascript" src="https://www.google.com/recaptcha/api/challenge?k=6LdlkqYUAAAAAAAbsjkIaRChmgo0hWa8YE00D5R_"></script><noscript><iframe src="https://www.google.com/recaptcha/api/noscript?k=6LdlkqYUAAAAAAAbsjkIaRChmgo0hWa8YE00D5R_"></iframe><textarea id="recaptcha_challenge_field" name="recaptcha_challenge_field" rows="3" columns="40"></textarea><input id="recaptcha_response_field" name="recaptcha_response_field" type="hidden" value="manual_challenge" /></noscript>
+			<div style="clear: both;"></div>
+		</div>
+
+		<div id="footer">
+			<ul class="Logos">
+				
+
+				<li><a href="http://www.inema.ba.gov.br" target="_blank" class="logoINEMA"> <span>INEMA</span>
+				</a></li>
+
+				<li><a href="http://www.sema.ba.gov.br" target="_blank" class="logoSEMA"> <span>SEMA</span>
+				</a></li>
+			</ul>
+
+			<div style="clear: both;"></div>
+
+			<div class="endereco">
+				<p>Avenida Luis Viana Filho, 6° Avenida n° 600 - CAB - CEP
+					41.745-900. Salvador - BA</p>
+			</div>
+
+			<br>
+
+			<div>
+				<p class="versao"><label>
+SEIA 4.6.3</label>
+				</p>
+			</div>
+
+			<hr>
+
+			<ul class="recomenda">
+				<li class="textoRecomenda">Para exibição correta do portal
+					recomendamos o uso do Mozilla Firefox 5+ ou Google Chrome 16+</li>
+				<li class="logoFirefox"><span>Mozilla Firefox</span></li>
+				<li class="logoChrome"><span>Google Chrome</span></li>
+			</ul>
+		</div>
+
+<div class="ui-dialog-docking-zone"></div><div id="_dialogAlertaIndex_modal" class="ui-widget-overlay" style="width: 1333px; height: 836px; z-index: 1000;"></div><div style="background-color: rgb(255, 255, 255); border: 1px solid rgb(204, 204, 204); box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 3px; position: absolute; transition: visibility 0s linear 0.3s, opacity 0.3s linear 0s; opacity: 0; visibility: hidden; z-index: 2000000000; left: 0px; top: -10000px;"><div style="width: 100%; height: 100%; position: fixed; top: 0px; left: 0px; z-index: 2000000000; background-color: rgb(255, 255, 255); opacity: 0.05;"></div><div class="g-recaptcha-bubble-arrow" style="border: 11px solid transparent; width: 0px; height: 0px; position: absolute; pointer-events: none; margin-top: -11px; z-index: 2000000000;"></div><div class="g-recaptcha-bubble-arrow" style="border: 10px solid transparent; width: 0px; height: 0px; position: absolute; pointer-events: none; margin-top: -10px; z-index: 2000000000;"></div><div style="z-index: 2000000000; position: relative;"><iframe title="recaptcha challenge" src="https://www.google.com/recaptcha/api2/bframe?hl=pt-BR&amp;v=6TWYOsKNtRFaLeFqv5xN42-l&amp;k=6LfrW6cUAAAAACvNjvf39GH_azSWhiZyiBJ2S1d_&amp;cb=ylyafrh2efwg" name="c-7tecs7ob277a" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox" style="width: 100%; height: 100%;"></iframe></div></div></body></html>

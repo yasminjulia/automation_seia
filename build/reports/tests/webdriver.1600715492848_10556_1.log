@@ -1,0 +1,945 @@
+[1600715493.750][INFO]: Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 37484
+[1600715493.751][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1600715494.808][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] COMMAND InitSession {
+   "capabilities": {
+      "alwaysMatch": {
+         "acceptInsecureCerts": true,
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\Users\\Yasmin\\IdeaProjects\\seia_selenium_selenide\\build\\downloads\\1600715483810_10556_1",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      },
+      "desiredCapabilities": {
+         "acceptInsecureCerts": true,
+         "acceptSslCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\Users\\Yasmin\\IdeaProjects\\seia_selenium_selenide\\build\\downloads\\1600715483810_10556_1",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "handlesAlerts": true,
+         "javascriptEnabled": true,
+         "pageLoadStrategy": "normal",
+         "takesScreenshot": true
+      },
+      "firstMatch": [ {
+         "browserName": "chrome"
+      } ],
+      "requiredCapabilities": {
+
+      }
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "C:\\Users\\Yasmin\\IdeaProjects\\seia_selenium_selenide\\build\\downloads\\1600715483810_10556_1",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   },
+   "requiredCapabilities": {
+
+   }
+}
+[1600715494.837][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\Users\\Yasmin\\IdeaProjects\\seia_selenium_selenide\\build\\downloads\\1600715483810_10556_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1600715494.855][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1600715494.861][INFO]: Launching chrome: "C:\Users\Yasmin\AppData\Local\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\Yasmin\AppData\Local\Temp\scoped_dir524_1661047035" data:,
+[1600715497.755][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1600715499.895][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1600715501.920][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "85.0.4183.102",
+      "chrome": {
+         "chromedriverVersion": "85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689})",
+         "userDataDir": "C:\\Users\\Yasmin\\AppData\\Local\\Temp\\scoped_dir524_1661047035"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:61617"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "af8cf9e451d00e63de2cb15237bf3ed2"
+}
+[1600715502.206][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] COMMAND SetWindowRect {
+   "height": 768,
+   "width": 1366
+}
+[1600715502.206][INFO]: Waiting for pending navigations...
+[1600715502.211][INFO]: Done waiting for pending navigations. Status: ok
+[1600715502.328][INFO]: Waiting for pending navigations...
+[1600715502.330][INFO]: Done waiting for pending navigations. Status: ok
+[1600715502.330][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] RESPONSE SetWindowRect {
+   "height": 768,
+   "width": 1366,
+   "x": 10,
+   "y": 10
+}
+[1600715502.366][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] COMMAND Navigate {
+   "url": "http://10.90.2.65/login"
+}
+[1600715502.367][INFO]: Waiting for pending navigations...
+[1600715502.368][INFO]: Done waiting for pending navigations. Status: ok
+[1600715502.874][INFO]: Waiting for pending navigations...
+[1600715513.797][INFO]: Done waiting for pending navigations. Status: ok
+[1600715513.797][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] RESPONSE Navigate
+[1600715514.192][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#_dialogAlertaIndex .ui-icon-closethick"
+}
+[1600715514.192][INFO]: Waiting for pending navigations...
+[1600715514.193][INFO]: Done waiting for pending navigations. Status: ok
+[1600715514.223][INFO]: Waiting for pending navigations...
+[1600715514.224][INFO]: Done waiting for pending navigations. Status: ok
+[1600715514.224][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "41029294-f249-480a-9f21-3464fd900590"
+}
+[1600715514.343][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "41029294-f249-480a-9f21-3464fd900590"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1600715514.343][INFO]: Waiting for pending navigations...
+[1600715514.345][INFO]: Done waiting for pending navigations. Status: ok
+[1600715514.436][INFO]: Waiting for pending navigations...
+[1600715514.471][INFO]: Done waiting for pending navigations. Status: ok
+[1600715514.471][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] RESPONSE ExecuteScript true
+[1600715514.494][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] COMMAND ClickElement {
+   "id": "41029294-f249-480a-9f21-3464fd900590"
+}
+[1600715514.494][INFO]: Waiting for pending navigations...
+[1600715514.516][INFO]: Done waiting for pending navigations. Status: ok
+[1600715514.746][INFO]: Waiting for pending navigations...
+[1600715514.757][INFO]: Done waiting for pending navigations. Status: ok
+[1600715514.758][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] RESPONSE ClickElement
+[1600715514.777][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#j_username"
+}
+[1600715514.777][INFO]: Waiting for pending navigations...
+[1600715514.784][INFO]: Done waiting for pending navigations. Status: ok
+[1600715514.824][INFO]: Waiting for pending navigations...
+[1600715514.826][INFO]: Done waiting for pending navigations. Status: ok
+[1600715514.826][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "ad0426d7-594d-4c95-a5d3-38ea292b7338"
+}
+[1600715514.866][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "ad0426d7-594d-4c95-a5d3-38ea292b7338"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1600715514.866][INFO]: Waiting for pending navigations...
+[1600715514.868][INFO]: Done waiting for pending navigations. Status: ok
+[1600715514.913][INFO]: Waiting for pending navigations...
+[1600715514.915][INFO]: Done waiting for pending navigations. Status: ok
+[1600715514.915][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] RESPONSE ExecuteScript true
+[1600715514.926][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] COMMAND ClearElement {
+   "id": "ad0426d7-594d-4c95-a5d3-38ea292b7338"
+}
+[1600715514.926][INFO]: Waiting for pending navigations...
+[1600715514.928][INFO]: Done waiting for pending navigations. Status: ok
+[1600715515.008][INFO]: 
+	=== NOTE: ===
+	The Clear command in ChromeDriver 2.43 and above
+	has been updated to conform to the current standard,
+	including raising blur event after clearing.
+
+[1600715515.053][INFO]: Waiting for pending navigations...
+[1600715515.055][INFO]: Done waiting for pending navigations. Status: ok
+[1600715515.055][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] RESPONSE ClearElement
+[1600715515.074][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] COMMAND TypeElement {
+   "id": "ad0426d7-594d-4c95-a5d3-38ea292b7338",
+   "text": "lenimaria.palma",
+   "value": [ "l", "e", "n", "i", "m", "a", "r", "i", "a", ".", "p", "a", "l", "m", "a" ]
+}
+[1600715515.075][INFO]: Waiting for pending navigations...
+[1600715515.076][INFO]: Done waiting for pending navigations. Status: ok
+[1600715515.339][INFO]: Waiting for pending navigations...
+[1600715515.350][INFO]: Done waiting for pending navigations. Status: ok
+[1600715515.350][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] RESPONSE TypeElement
+[1600715515.363][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#j_password"
+}
+[1600715515.363][INFO]: Waiting for pending navigations...
+[1600715515.365][INFO]: Done waiting for pending navigations. Status: ok
+[1600715515.396][INFO]: Waiting for pending navigations...
+[1600715515.398][INFO]: Done waiting for pending navigations. Status: ok
+[1600715515.399][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "57d3597a-7e1f-4074-a86b-3b9aac26335e"
+}
+[1600715515.422][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "57d3597a-7e1f-4074-a86b-3b9aac26335e"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1600715515.422][INFO]: Waiting for pending navigations...
+[1600715515.424][INFO]: Done waiting for pending navigations. Status: ok
+[1600715515.445][INFO]: Waiting for pending navigations...
+[1600715515.447][INFO]: Done waiting for pending navigations. Status: ok
+[1600715515.447][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] RESPONSE ExecuteScript true
+[1600715515.466][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] COMMAND ClearElement {
+   "id": "57d3597a-7e1f-4074-a86b-3b9aac26335e"
+}
+[1600715515.466][INFO]: Waiting for pending navigations...
+[1600715515.469][INFO]: Done waiting for pending navigations. Status: ok
+[1600715515.566][INFO]: Waiting for pending navigations...
+[1600715515.568][INFO]: Done waiting for pending navigations. Status: ok
+[1600715515.568][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] RESPONSE ClearElement
+[1600715515.576][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] COMMAND TypeElement {
+   "id": "57d3597a-7e1f-4074-a86b-3b9aac26335e",
+   "text": "@123456",
+   "value": [ "@", "1", "2", "3", "4", "5", "6" ]
+}
+[1600715515.576][INFO]: Waiting for pending navigations...
+[1600715515.578][INFO]: Done waiting for pending navigations. Status: ok
+[1600715515.799][INFO]: Waiting for pending navigations...
+[1600715515.805][INFO]: Done waiting for pending navigations. Status: ok
+[1600715515.805][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] RESPONSE TypeElement
+[1600715515.818][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#btnEntrar"
+}
+[1600715515.818][INFO]: Waiting for pending navigations...
+[1600715515.827][INFO]: Done waiting for pending navigations. Status: ok
+[1600715515.861][INFO]: Waiting for pending navigations...
+[1600715515.863][INFO]: Done waiting for pending navigations. Status: ok
+[1600715515.863][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "794ffc9e-89e8-4c95-bdc7-0275a1103910"
+}
+[1600715515.909][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "794ffc9e-89e8-4c95-bdc7-0275a1103910"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1600715515.909][INFO]: Waiting for pending navigations...
+[1600715515.911][INFO]: Done waiting for pending navigations. Status: ok
+[1600715515.933][INFO]: Waiting for pending navigations...
+[1600715515.935][INFO]: Done waiting for pending navigations. Status: ok
+[1600715515.935][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] RESPONSE ExecuteScript true
+[1600715515.943][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] COMMAND ClickElement {
+   "id": "794ffc9e-89e8-4c95-bdc7-0275a1103910"
+}
+[1600715515.943][INFO]: Waiting for pending navigations...
+[1600715515.945][INFO]: Done waiting for pending navigations. Status: ok
+[1600715516.128][INFO]: Waiting for pending navigations...
+[1600715520.143][INFO]: Done waiting for pending navigations. Status: ok
+[1600715520.143][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] RESPONSE ClickElement
+[1600715520.170][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#pnlLogin_content span"
+}
+[1600715520.170][INFO]: Waiting for pending navigations...
+[1600715520.185][INFO]: Done waiting for pending navigations. Status: ok
+[1600715520.240][INFO]: Waiting for pending navigations...
+[1600715520.243][INFO]: Done waiting for pending navigations. Status: ok
+[1600715520.244][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "5bff655f-dc85-4c49-9e07-74e03e5fcd82"
+}
+[1600715520.307][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "5bff655f-dc85-4c49-9e07-74e03e5fcd82"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1600715520.309][INFO]: Waiting for pending navigations...
+[1600715520.335][INFO]: Done waiting for pending navigations. Status: ok
+[1600715520.387][INFO]: Waiting for pending navigations...
+[1600715520.389][INFO]: Done waiting for pending navigations. Status: ok
+[1600715520.389][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] RESPONSE ExecuteScript true
+[1600715520.438][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] COMMAND FindElement {
+   "using": "css selector",
+   "value": "span#recaptcha-anchor > div:nth-of-type(1)"
+}
+[1600715520.438][INFO]: Waiting for pending navigations...
+[1600715520.474][INFO]: Done waiting for pending navigations. Status: ok
+[1600715520.573][INFO]: Waiting for pending navigations...
+[1600715520.574][INFO]: Done waiting for pending navigations. Status: ok
+[1600715520.574][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"span#recaptcha-anchor > div:nth-of-type(1)"}
+  (Session info: chrome=85.0.4183.102)
+[1600715520.834][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] COMMAND FindElement {
+   "using": "css selector",
+   "value": "span#recaptcha-anchor > div:nth-of-type(1)"
+}
+[1600715520.854][INFO]: Waiting for pending navigations...
+[1600715520.859][INFO]: Done waiting for pending navigations. Status: ok
+[1600715520.876][INFO]: Waiting for pending navigations...
+[1600715520.877][INFO]: Done waiting for pending navigations. Status: ok
+[1600715520.877][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"span#recaptcha-anchor > div:nth-of-type(1)"}
+  (Session info: chrome=85.0.4183.102)
+[1600715521.093][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] COMMAND FindElement {
+   "using": "css selector",
+   "value": "span#recaptcha-anchor > div:nth-of-type(1)"
+}
+[1600715521.093][INFO]: Waiting for pending navigations...
+[1600715521.095][INFO]: Done waiting for pending navigations. Status: ok
+[1600715521.109][INFO]: Waiting for pending navigations...
+[1600715521.111][INFO]: Done waiting for pending navigations. Status: ok
+[1600715521.111][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"span#recaptcha-anchor > div:nth-of-type(1)"}
+  (Session info: chrome=85.0.4183.102)
+[1600715521.327][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] COMMAND FindElement {
+   "using": "css selector",
+   "value": "span#recaptcha-anchor > div:nth-of-type(1)"
+}
+[1600715521.327][INFO]: Waiting for pending navigations...
+[1600715521.329][INFO]: Done waiting for pending navigations. Status: ok
+[1600715521.343][INFO]: Waiting for pending navigations...
+[1600715521.344][INFO]: Done waiting for pending navigations. Status: ok
+[1600715521.344][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"span#recaptcha-anchor > div:nth-of-type(1)"}
+  (Session info: chrome=85.0.4183.102)
+[1600715521.561][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] COMMAND FindElement {
+   "using": "css selector",
+   "value": "span#recaptcha-anchor > div:nth-of-type(1)"
+}
+[1600715521.561][INFO]: Waiting for pending navigations...
+[1600715521.563][INFO]: Done waiting for pending navigations. Status: ok
+[1600715521.576][INFO]: Waiting for pending navigations...
+[1600715521.578][INFO]: Done waiting for pending navigations. Status: ok
+[1600715521.578][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"span#recaptcha-anchor > div:nth-of-type(1)"}
+  (Session info: chrome=85.0.4183.102)
+[1600715521.792][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] COMMAND FindElement {
+   "using": "css selector",
+   "value": "span#recaptcha-anchor > div:nth-of-type(1)"
+}
+[1600715521.792][INFO]: Waiting for pending navigations...
+[1600715521.794][INFO]: Done waiting for pending navigations. Status: ok
+[1600715521.807][INFO]: Waiting for pending navigations...
+[1600715521.808][INFO]: Done waiting for pending navigations. Status: ok
+[1600715521.809][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"span#recaptcha-anchor > div:nth-of-type(1)"}
+  (Session info: chrome=85.0.4183.102)
+[1600715522.020][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] COMMAND FindElement {
+   "using": "css selector",
+   "value": "span#recaptcha-anchor > div:nth-of-type(1)"
+}
+[1600715522.020][INFO]: Waiting for pending navigations...
+[1600715522.022][INFO]: Done waiting for pending navigations. Status: ok
+[1600715522.038][INFO]: Waiting for pending navigations...
+[1600715522.039][INFO]: Done waiting for pending navigations. Status: ok
+[1600715522.040][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"span#recaptcha-anchor > div:nth-of-type(1)"}
+  (Session info: chrome=85.0.4183.102)
+[1600715522.262][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] COMMAND FindElement {
+   "using": "css selector",
+   "value": "span#recaptcha-anchor > div:nth-of-type(1)"
+}
+[1600715522.262][INFO]: Waiting for pending navigations...
+[1600715522.264][INFO]: Done waiting for pending navigations. Status: ok
+[1600715522.278][INFO]: Waiting for pending navigations...
+[1600715522.280][INFO]: Done waiting for pending navigations. Status: ok
+[1600715522.280][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"span#recaptcha-anchor > div:nth-of-type(1)"}
+  (Session info: chrome=85.0.4183.102)
+[1600715522.496][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] COMMAND FindElement {
+   "using": "css selector",
+   "value": "span#recaptcha-anchor > div:nth-of-type(1)"
+}
+[1600715522.496][INFO]: Waiting for pending navigations...
+[1600715522.498][INFO]: Done waiting for pending navigations. Status: ok
+[1600715522.513][INFO]: Waiting for pending navigations...
+[1600715522.515][INFO]: Done waiting for pending navigations. Status: ok
+[1600715522.515][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"span#recaptcha-anchor > div:nth-of-type(1)"}
+  (Session info: chrome=85.0.4183.102)
+[1600715522.729][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] COMMAND FindElement {
+   "using": "css selector",
+   "value": "span#recaptcha-anchor > div:nth-of-type(1)"
+}
+[1600715522.729][INFO]: Waiting for pending navigations...
+[1600715522.731][INFO]: Done waiting for pending navigations. Status: ok
+[1600715522.744][INFO]: Waiting for pending navigations...
+[1600715522.745][INFO]: Done waiting for pending navigations. Status: ok
+[1600715522.746][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"span#recaptcha-anchor > div:nth-of-type(1)"}
+  (Session info: chrome=85.0.4183.102)
+[1600715522.959][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] COMMAND FindElement {
+   "using": "css selector",
+   "value": "span#recaptcha-anchor > div:nth-of-type(1)"
+}
+[1600715522.959][INFO]: Waiting for pending navigations...
+[1600715522.973][INFO]: Done waiting for pending navigations. Status: ok
+[1600715522.986][INFO]: Waiting for pending navigations...
+[1600715522.988][INFO]: Done waiting for pending navigations. Status: ok
+[1600715522.988][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"span#recaptcha-anchor > div:nth-of-type(1)"}
+  (Session info: chrome=85.0.4183.102)
+[1600715523.203][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] COMMAND FindElement {
+   "using": "css selector",
+   "value": "span#recaptcha-anchor > div:nth-of-type(1)"
+}
+[1600715523.203][INFO]: Waiting for pending navigations...
+[1600715523.205][INFO]: Done waiting for pending navigations. Status: ok
+[1600715523.223][INFO]: Waiting for pending navigations...
+[1600715523.224][INFO]: Done waiting for pending navigations. Status: ok
+[1600715523.224][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"span#recaptcha-anchor > div:nth-of-type(1)"}
+  (Session info: chrome=85.0.4183.102)
+[1600715523.438][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] COMMAND FindElement {
+   "using": "css selector",
+   "value": "span#recaptcha-anchor > div:nth-of-type(1)"
+}
+[1600715523.438][INFO]: Waiting for pending navigations...
+[1600715523.440][INFO]: Done waiting for pending navigations. Status: ok
+[1600715523.453][INFO]: Waiting for pending navigations...
+[1600715523.454][INFO]: Done waiting for pending navigations. Status: ok
+[1600715523.454][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"span#recaptcha-anchor > div:nth-of-type(1)"}
+  (Session info: chrome=85.0.4183.102)
+[1600715523.667][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] COMMAND FindElement {
+   "using": "css selector",
+   "value": "span#recaptcha-anchor > div:nth-of-type(1)"
+}
+[1600715523.667][INFO]: Waiting for pending navigations...
+[1600715523.669][INFO]: Done waiting for pending navigations. Status: ok
+[1600715523.680][INFO]: Waiting for pending navigations...
+[1600715523.682][INFO]: Done waiting for pending navigations. Status: ok
+[1600715523.682][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"span#recaptcha-anchor > div:nth-of-type(1)"}
+  (Session info: chrome=85.0.4183.102)
+[1600715523.891][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] COMMAND FindElement {
+   "using": "css selector",
+   "value": "span#recaptcha-anchor > div:nth-of-type(1)"
+}
+[1600715523.891][INFO]: Waiting for pending navigations...
+[1600715523.893][INFO]: Done waiting for pending navigations. Status: ok
+[1600715523.906][INFO]: Waiting for pending navigations...
+[1600715523.908][INFO]: Done waiting for pending navigations. Status: ok
+[1600715523.908][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"span#recaptcha-anchor > div:nth-of-type(1)"}
+  (Session info: chrome=85.0.4183.102)
+[1600715524.118][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] COMMAND FindElement {
+   "using": "css selector",
+   "value": "span#recaptcha-anchor > div:nth-of-type(1)"
+}
+[1600715524.119][INFO]: Waiting for pending navigations...
+[1600715524.120][INFO]: Done waiting for pending navigations. Status: ok
+[1600715524.133][INFO]: Waiting for pending navigations...
+[1600715524.135][INFO]: Done waiting for pending navigations. Status: ok
+[1600715524.135][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"span#recaptcha-anchor > div:nth-of-type(1)"}
+  (Session info: chrome=85.0.4183.102)
+[1600715524.347][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] COMMAND FindElement {
+   "using": "css selector",
+   "value": "span#recaptcha-anchor > div:nth-of-type(1)"
+}
+[1600715524.347][INFO]: Waiting for pending navigations...
+[1600715524.349][INFO]: Done waiting for pending navigations. Status: ok
+[1600715524.362][INFO]: Waiting for pending navigations...
+[1600715524.363][INFO]: Done waiting for pending navigations. Status: ok
+[1600715524.363][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"span#recaptcha-anchor > div:nth-of-type(1)"}
+  (Session info: chrome=85.0.4183.102)
+[1600715524.576][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] COMMAND FindElement {
+   "using": "css selector",
+   "value": "span#recaptcha-anchor > div:nth-of-type(1)"
+}
+[1600715524.576][INFO]: Waiting for pending navigations...
+[1600715524.578][INFO]: Done waiting for pending navigations. Status: ok
+[1600715524.590][INFO]: Waiting for pending navigations...
+[1600715524.592][INFO]: Done waiting for pending navigations. Status: ok
+[1600715524.592][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"span#recaptcha-anchor > div:nth-of-type(1)"}
+  (Session info: chrome=85.0.4183.102)
+[1600715524.800][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] COMMAND FindElement {
+   "using": "css selector",
+   "value": "span#recaptcha-anchor > div:nth-of-type(1)"
+}
+[1600715524.800][INFO]: Waiting for pending navigations...
+[1600715524.802][INFO]: Done waiting for pending navigations. Status: ok
+[1600715524.815][INFO]: Waiting for pending navigations...
+[1600715524.816][INFO]: Done waiting for pending navigations. Status: ok
+[1600715524.816][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"span#recaptcha-anchor > div:nth-of-type(1)"}
+  (Session info: chrome=85.0.4183.102)
+[1600715525.027][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] COMMAND FindElement {
+   "using": "css selector",
+   "value": "span#recaptcha-anchor > div:nth-of-type(1)"
+}
+[1600715525.028][INFO]: Waiting for pending navigations...
+[1600715525.029][INFO]: Done waiting for pending navigations. Status: ok
+[1600715525.041][INFO]: Waiting for pending navigations...
+[1600715525.043][INFO]: Done waiting for pending navigations. Status: ok
+[1600715525.043][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"span#recaptcha-anchor > div:nth-of-type(1)"}
+  (Session info: chrome=85.0.4183.102)
+[1600715525.251][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] COMMAND FindElement {
+   "using": "css selector",
+   "value": "span#recaptcha-anchor > div:nth-of-type(1)"
+}
+[1600715525.251][INFO]: Waiting for pending navigations...
+[1600715525.253][INFO]: Done waiting for pending navigations. Status: ok
+[1600715525.265][INFO]: Waiting for pending navigations...
+[1600715525.267][INFO]: Done waiting for pending navigations. Status: ok
+[1600715525.267][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"span#recaptcha-anchor > div:nth-of-type(1)"}
+  (Session info: chrome=85.0.4183.102)
+[1600715525.478][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] COMMAND FindElement {
+   "using": "css selector",
+   "value": "span#recaptcha-anchor > div:nth-of-type(1)"
+}
+[1600715525.478][INFO]: Waiting for pending navigations...
+[1600715525.479][INFO]: Done waiting for pending navigations. Status: ok
+[1600715525.493][INFO]: Waiting for pending navigations...
+[1600715525.495][INFO]: Done waiting for pending navigations. Status: ok
+[1600715525.495][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"span#recaptcha-anchor > div:nth-of-type(1)"}
+  (Session info: chrome=85.0.4183.102)
+[1600715525.707][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] COMMAND FindElement {
+   "using": "css selector",
+   "value": "span#recaptcha-anchor > div:nth-of-type(1)"
+}
+[1600715525.707][INFO]: Waiting for pending navigations...
+[1600715525.709][INFO]: Done waiting for pending navigations. Status: ok
+[1600715525.731][INFO]: Waiting for pending navigations...
+[1600715525.735][INFO]: Done waiting for pending navigations. Status: ok
+[1600715525.735][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"span#recaptcha-anchor > div:nth-of-type(1)"}
+  (Session info: chrome=85.0.4183.102)
+[1600715525.947][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] COMMAND FindElement {
+   "using": "css selector",
+   "value": "span#recaptcha-anchor > div:nth-of-type(1)"
+}
+[1600715525.947][INFO]: Waiting for pending navigations...
+[1600715525.949][INFO]: Done waiting for pending navigations. Status: ok
+[1600715525.963][INFO]: Waiting for pending navigations...
+[1600715525.964][INFO]: Done waiting for pending navigations. Status: ok
+[1600715525.964][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"span#recaptcha-anchor > div:nth-of-type(1)"}
+  (Session info: chrome=85.0.4183.102)
+[1600715526.173][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] COMMAND FindElement {
+   "using": "css selector",
+   "value": "span#recaptcha-anchor > div:nth-of-type(1)"
+}
+[1600715526.173][INFO]: Waiting for pending navigations...
+[1600715526.175][INFO]: Done waiting for pending navigations. Status: ok
+[1600715526.188][INFO]: Waiting for pending navigations...
+[1600715526.189][INFO]: Done waiting for pending navigations. Status: ok
+[1600715526.190][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"span#recaptcha-anchor > div:nth-of-type(1)"}
+  (Session info: chrome=85.0.4183.102)
+[1600715526.399][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] COMMAND FindElement {
+   "using": "css selector",
+   "value": "span#recaptcha-anchor > div:nth-of-type(1)"
+}
+[1600715526.399][INFO]: Waiting for pending navigations...
+[1600715526.401][INFO]: Done waiting for pending navigations. Status: ok
+[1600715526.413][INFO]: Waiting for pending navigations...
+[1600715526.414][INFO]: Done waiting for pending navigations. Status: ok
+[1600715526.414][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"span#recaptcha-anchor > div:nth-of-type(1)"}
+  (Session info: chrome=85.0.4183.102)
+[1600715526.622][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] COMMAND FindElement {
+   "using": "css selector",
+   "value": "span#recaptcha-anchor > div:nth-of-type(1)"
+}
+[1600715526.622][INFO]: Waiting for pending navigations...
+[1600715526.624][INFO]: Done waiting for pending navigations. Status: ok
+[1600715526.636][INFO]: Waiting for pending navigations...
+[1600715526.637][INFO]: Done waiting for pending navigations. Status: ok
+[1600715526.637][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"span#recaptcha-anchor > div:nth-of-type(1)"}
+  (Session info: chrome=85.0.4183.102)
+[1600715526.848][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] COMMAND FindElement {
+   "using": "css selector",
+   "value": "span#recaptcha-anchor > div:nth-of-type(1)"
+}
+[1600715526.848][INFO]: Waiting for pending navigations...
+[1600715526.850][INFO]: Done waiting for pending navigations. Status: ok
+[1600715526.863][INFO]: Waiting for pending navigations...
+[1600715526.865][INFO]: Done waiting for pending navigations. Status: ok
+[1600715526.865][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"span#recaptcha-anchor > div:nth-of-type(1)"}
+  (Session info: chrome=85.0.4183.102)
+[1600715527.074][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] COMMAND FindElement {
+   "using": "css selector",
+   "value": "span#recaptcha-anchor > div:nth-of-type(1)"
+}
+[1600715527.075][INFO]: Waiting for pending navigations...
+[1600715527.076][INFO]: Done waiting for pending navigations. Status: ok
+[1600715527.089][INFO]: Waiting for pending navigations...
+[1600715527.091][INFO]: Done waiting for pending navigations. Status: ok
+[1600715527.091][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"span#recaptcha-anchor > div:nth-of-type(1)"}
+  (Session info: chrome=85.0.4183.102)
+[1600715527.303][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] COMMAND FindElement {
+   "using": "css selector",
+   "value": "span#recaptcha-anchor > div:nth-of-type(1)"
+}
+[1600715527.303][INFO]: Waiting for pending navigations...
+[1600715527.305][INFO]: Done waiting for pending navigations. Status: ok
+[1600715527.317][INFO]: Waiting for pending navigations...
+[1600715527.319][INFO]: Done waiting for pending navigations. Status: ok
+[1600715527.319][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"span#recaptcha-anchor > div:nth-of-type(1)"}
+  (Session info: chrome=85.0.4183.102)
+[1600715527.528][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] COMMAND FindElement {
+   "using": "css selector",
+   "value": "span#recaptcha-anchor > div:nth-of-type(1)"
+}
+[1600715527.528][INFO]: Waiting for pending navigations...
+[1600715527.530][INFO]: Done waiting for pending navigations. Status: ok
+[1600715527.545][INFO]: Waiting for pending navigations...
+[1600715527.546][INFO]: Done waiting for pending navigations. Status: ok
+[1600715527.546][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"span#recaptcha-anchor > div:nth-of-type(1)"}
+  (Session info: chrome=85.0.4183.102)
+[1600715527.754][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] COMMAND FindElement {
+   "using": "css selector",
+   "value": "span#recaptcha-anchor > div:nth-of-type(1)"
+}
+[1600715527.754][INFO]: Waiting for pending navigations...
+[1600715527.756][INFO]: Done waiting for pending navigations. Status: ok
+[1600715527.769][INFO]: Waiting for pending navigations...
+[1600715527.771][INFO]: Done waiting for pending navigations. Status: ok
+[1600715527.771][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"span#recaptcha-anchor > div:nth-of-type(1)"}
+  (Session info: chrome=85.0.4183.102)
+[1600715527.982][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] COMMAND FindElement {
+   "using": "css selector",
+   "value": "span#recaptcha-anchor > div:nth-of-type(1)"
+}
+[1600715527.982][INFO]: Waiting for pending navigations...
+[1600715527.984][INFO]: Done waiting for pending navigations. Status: ok
+[1600715527.996][INFO]: Waiting for pending navigations...
+[1600715527.998][INFO]: Done waiting for pending navigations. Status: ok
+[1600715527.998][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"span#recaptcha-anchor > div:nth-of-type(1)"}
+  (Session info: chrome=85.0.4183.102)
+[1600715528.207][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] COMMAND FindElement {
+   "using": "css selector",
+   "value": "span#recaptcha-anchor > div:nth-of-type(1)"
+}
+[1600715528.207][INFO]: Waiting for pending navigations...
+[1600715528.209][INFO]: Done waiting for pending navigations. Status: ok
+[1600715528.222][INFO]: Waiting for pending navigations...
+[1600715528.223][INFO]: Done waiting for pending navigations. Status: ok
+[1600715528.224][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"span#recaptcha-anchor > div:nth-of-type(1)"}
+  (Session info: chrome=85.0.4183.102)
+[1600715528.433][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] COMMAND FindElement {
+   "using": "css selector",
+   "value": "span#recaptcha-anchor > div:nth-of-type(1)"
+}
+[1600715528.433][INFO]: Waiting for pending navigations...
+[1600715528.435][INFO]: Done waiting for pending navigations. Status: ok
+[1600715528.447][INFO]: Waiting for pending navigations...
+[1600715528.449][INFO]: Done waiting for pending navigations. Status: ok
+[1600715528.449][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"span#recaptcha-anchor > div:nth-of-type(1)"}
+  (Session info: chrome=85.0.4183.102)
+[1600715528.658][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] COMMAND FindElement {
+   "using": "css selector",
+   "value": "span#recaptcha-anchor > div:nth-of-type(1)"
+}
+[1600715528.658][INFO]: Waiting for pending navigations...
+[1600715528.660][INFO]: Done waiting for pending navigations. Status: ok
+[1600715528.672][INFO]: Waiting for pending navigations...
+[1600715528.674][INFO]: Done waiting for pending navigations. Status: ok
+[1600715528.674][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"span#recaptcha-anchor > div:nth-of-type(1)"}
+  (Session info: chrome=85.0.4183.102)
+[1600715528.882][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] COMMAND FindElement {
+   "using": "css selector",
+   "value": "span#recaptcha-anchor > div:nth-of-type(1)"
+}
+[1600715528.883][INFO]: Waiting for pending navigations...
+[1600715528.887][INFO]: Done waiting for pending navigations. Status: ok
+[1600715528.904][INFO]: Waiting for pending navigations...
+[1600715528.906][INFO]: Done waiting for pending navigations. Status: ok
+[1600715528.906][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"span#recaptcha-anchor > div:nth-of-type(1)"}
+  (Session info: chrome=85.0.4183.102)
+[1600715529.117][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] COMMAND FindElement {
+   "using": "css selector",
+   "value": "span#recaptcha-anchor > div:nth-of-type(1)"
+}
+[1600715529.117][INFO]: Waiting for pending navigations...
+[1600715529.118][INFO]: Done waiting for pending navigations. Status: ok
+[1600715529.135][INFO]: Waiting for pending navigations...
+[1600715529.136][INFO]: Done waiting for pending navigations. Status: ok
+[1600715529.136][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"span#recaptcha-anchor > div:nth-of-type(1)"}
+  (Session info: chrome=85.0.4183.102)
+[1600715529.346][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] COMMAND FindElement {
+   "using": "css selector",
+   "value": "span#recaptcha-anchor > div:nth-of-type(1)"
+}
+[1600715529.346][INFO]: Waiting for pending navigations...
+[1600715529.348][INFO]: Done waiting for pending navigations. Status: ok
+[1600715529.361][INFO]: Waiting for pending navigations...
+[1600715529.362][INFO]: Done waiting for pending navigations. Status: ok
+[1600715529.363][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"span#recaptcha-anchor > div:nth-of-type(1)"}
+  (Session info: chrome=85.0.4183.102)
+[1600715529.574][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] COMMAND FindElement {
+   "using": "css selector",
+   "value": "span#recaptcha-anchor > div:nth-of-type(1)"
+}
+[1600715529.574][INFO]: Waiting for pending navigations...
+[1600715529.607][INFO]: Done waiting for pending navigations. Status: ok
+[1600715529.622][INFO]: Waiting for pending navigations...
+[1600715529.623][INFO]: Done waiting for pending navigations. Status: ok
+[1600715529.623][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"span#recaptcha-anchor > div:nth-of-type(1)"}
+  (Session info: chrome=85.0.4183.102)
+[1600715529.831][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] COMMAND FindElement {
+   "using": "css selector",
+   "value": "span#recaptcha-anchor > div:nth-of-type(1)"
+}
+[1600715529.832][INFO]: Waiting for pending navigations...
+[1600715529.833][INFO]: Done waiting for pending navigations. Status: ok
+[1600715529.845][INFO]: Waiting for pending navigations...
+[1600715529.846][INFO]: Done waiting for pending navigations. Status: ok
+[1600715529.847][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"span#recaptcha-anchor > div:nth-of-type(1)"}
+  (Session info: chrome=85.0.4183.102)
+[1600715530.057][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] COMMAND FindElement {
+   "using": "css selector",
+   "value": "span#recaptcha-anchor > div:nth-of-type(1)"
+}
+[1600715530.057][INFO]: Waiting for pending navigations...
+[1600715530.059][INFO]: Done waiting for pending navigations. Status: ok
+[1600715530.076][INFO]: Waiting for pending navigations...
+[1600715530.077][INFO]: Done waiting for pending navigations. Status: ok
+[1600715530.078][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"span#recaptcha-anchor > div:nth-of-type(1)"}
+  (Session info: chrome=85.0.4183.102)
+[1600715530.290][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] COMMAND FindElement {
+   "using": "css selector",
+   "value": "span#recaptcha-anchor > div:nth-of-type(1)"
+}
+[1600715530.290][INFO]: Waiting for pending navigations...
+[1600715530.292][INFO]: Done waiting for pending navigations. Status: ok
+[1600715530.308][INFO]: Waiting for pending navigations...
+[1600715530.310][INFO]: Done waiting for pending navigations. Status: ok
+[1600715530.310][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"span#recaptcha-anchor > div:nth-of-type(1)"}
+  (Session info: chrome=85.0.4183.102)
+[1600715530.522][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] COMMAND FindElement {
+   "using": "css selector",
+   "value": "span#recaptcha-anchor > div:nth-of-type(1)"
+}
+[1600715530.522][INFO]: Waiting for pending navigations...
+[1600715530.523][INFO]: Done waiting for pending navigations. Status: ok
+[1600715530.537][INFO]: Waiting for pending navigations...
+[1600715530.538][INFO]: Done waiting for pending navigations. Status: ok
+[1600715530.539][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"span#recaptcha-anchor > div:nth-of-type(1)"}
+  (Session info: chrome=85.0.4183.102)
+[1600715530.753][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] COMMAND FindElement {
+   "using": "css selector",
+   "value": "span#recaptcha-anchor > div:nth-of-type(1)"
+}
+[1600715530.753][INFO]: Waiting for pending navigations...
+[1600715530.755][INFO]: Done waiting for pending navigations. Status: ok
+[1600715530.771][INFO]: Waiting for pending navigations...
+[1600715530.773][INFO]: Done waiting for pending navigations. Status: ok
+[1600715530.773][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"span#recaptcha-anchor > div:nth-of-type(1)"}
+  (Session info: chrome=85.0.4183.102)
+[1600715530.991][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] COMMAND FindElement {
+   "using": "css selector",
+   "value": "span#recaptcha-anchor > div:nth-of-type(1)"
+}
+[1600715530.991][INFO]: Waiting for pending navigations...
+[1600715530.996][INFO]: Done waiting for pending navigations. Status: ok
+[1600715531.013][INFO]: Waiting for pending navigations...
+[1600715531.015][INFO]: Done waiting for pending navigations. Status: ok
+[1600715531.015][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"span#recaptcha-anchor > div:nth-of-type(1)"}
+  (Session info: chrome=85.0.4183.102)
+[1600715531.227][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] COMMAND FindElement {
+   "using": "css selector",
+   "value": "span#recaptcha-anchor > div:nth-of-type(1)"
+}
+[1600715531.227][INFO]: Waiting for pending navigations...
+[1600715531.229][INFO]: Done waiting for pending navigations. Status: ok
+[1600715531.244][INFO]: Waiting for pending navigations...
+[1600715531.245][INFO]: Done waiting for pending navigations. Status: ok
+[1600715531.245][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"span#recaptcha-anchor > div:nth-of-type(1)"}
+  (Session info: chrome=85.0.4183.102)
+[1600715531.454][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] COMMAND FindElement {
+   "using": "css selector",
+   "value": "span#recaptcha-anchor > div:nth-of-type(1)"
+}
+[1600715531.454][INFO]: Waiting for pending navigations...
+[1600715531.456][INFO]: Done waiting for pending navigations. Status: ok
+[1600715531.467][INFO]: Waiting for pending navigations...
+[1600715531.469][INFO]: Done waiting for pending navigations. Status: ok
+[1600715531.469][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"span#recaptcha-anchor > div:nth-of-type(1)"}
+  (Session info: chrome=85.0.4183.102)
+[1600715531.678][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] COMMAND FindElement {
+   "using": "css selector",
+   "value": "span#recaptcha-anchor > div:nth-of-type(1)"
+}
+[1600715531.679][INFO]: Waiting for pending navigations...
+[1600715531.680][INFO]: Done waiting for pending navigations. Status: ok
+[1600715531.696][INFO]: Waiting for pending navigations...
+[1600715531.697][INFO]: Done waiting for pending navigations. Status: ok
+[1600715531.697][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"span#recaptcha-anchor > div:nth-of-type(1)"}
+  (Session info: chrome=85.0.4183.102)
+[1600715531.910][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] COMMAND FindElement {
+   "using": "css selector",
+   "value": "span#recaptcha-anchor > div:nth-of-type(1)"
+}
+[1600715531.910][INFO]: Waiting for pending navigations...
+[1600715531.912][INFO]: Done waiting for pending navigations. Status: ok
+[1600715531.928][INFO]: Waiting for pending navigations...
+[1600715531.930][INFO]: Done waiting for pending navigations. Status: ok
+[1600715531.930][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"span#recaptcha-anchor > div:nth-of-type(1)"}
+  (Session info: chrome=85.0.4183.102)
+[1600715532.142][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] COMMAND FindElement {
+   "using": "css selector",
+   "value": "span#recaptcha-anchor > div:nth-of-type(1)"
+}
+[1600715532.142][INFO]: Waiting for pending navigations...
+[1600715532.144][INFO]: Done waiting for pending navigations. Status: ok
+[1600715532.158][INFO]: Waiting for pending navigations...
+[1600715532.159][INFO]: Done waiting for pending navigations. Status: ok
+[1600715532.159][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"span#recaptcha-anchor > div:nth-of-type(1)"}
+  (Session info: chrome=85.0.4183.102)
+[1600715532.368][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] COMMAND FindElement {
+   "using": "css selector",
+   "value": "span#recaptcha-anchor > div:nth-of-type(1)"
+}
+[1600715532.368][INFO]: Waiting for pending navigations...
+[1600715532.369][INFO]: Done waiting for pending navigations. Status: ok
+[1600715532.390][INFO]: Waiting for pending navigations...
+[1600715532.391][INFO]: Done waiting for pending navigations. Status: ok
+[1600715532.392][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"span#recaptcha-anchor > div:nth-of-type(1)"}
+  (Session info: chrome=85.0.4183.102)
+[1600715532.608][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] COMMAND FindElement {
+   "using": "css selector",
+   "value": "span#recaptcha-anchor > div:nth-of-type(1)"
+}
+[1600715532.609][INFO]: Waiting for pending navigations...
+[1600715532.611][INFO]: Done waiting for pending navigations. Status: ok
+[1600715532.646][INFO]: Waiting for pending navigations...
+[1600715532.647][INFO]: Done waiting for pending navigations. Status: ok
+[1600715532.647][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"span#recaptcha-anchor > div:nth-of-type(1)"}
+  (Session info: chrome=85.0.4183.102)
+[1600715532.861][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] COMMAND FindElement {
+   "using": "css selector",
+   "value": "span#recaptcha-anchor > div:nth-of-type(1)"
+}
+[1600715532.862][INFO]: Waiting for pending navigations...
+[1600715532.863][INFO]: Done waiting for pending navigations. Status: ok
+[1600715532.882][INFO]: Waiting for pending navigations...
+[1600715532.884][INFO]: Done waiting for pending navigations. Status: ok
+[1600715532.884][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"span#recaptcha-anchor > div:nth-of-type(1)"}
+  (Session info: chrome=85.0.4183.102)
+[1600715533.096][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] COMMAND FindElement {
+   "using": "css selector",
+   "value": "span#recaptcha-anchor > div:nth-of-type(1)"
+}
+[1600715533.096][INFO]: Waiting for pending navigations...
+[1600715533.098][INFO]: Done waiting for pending navigations. Status: ok
+[1600715533.112][INFO]: Waiting for pending navigations...
+[1600715533.113][INFO]: Done waiting for pending navigations. Status: ok
+[1600715533.113][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"span#recaptcha-anchor > div:nth-of-type(1)"}
+  (Session info: chrome=85.0.4183.102)
+[1600715533.334][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] COMMAND FindElement {
+   "using": "css selector",
+   "value": "span#recaptcha-anchor > div:nth-of-type(1)"
+}
+[1600715533.335][INFO]: Waiting for pending navigations...
+[1600715533.359][INFO]: Done waiting for pending navigations. Status: ok
+[1600715533.376][INFO]: Waiting for pending navigations...
+[1600715533.377][INFO]: Done waiting for pending navigations. Status: ok
+[1600715533.377][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"span#recaptcha-anchor > div:nth-of-type(1)"}
+  (Session info: chrome=85.0.4183.102)
+[1600715533.589][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] COMMAND FindElement {
+   "using": "css selector",
+   "value": "span#recaptcha-anchor > div:nth-of-type(1)"
+}
+[1600715533.589][INFO]: Waiting for pending navigations...
+[1600715533.592][INFO]: Done waiting for pending navigations. Status: ok
+[1600715533.609][INFO]: Waiting for pending navigations...
+[1600715533.610][INFO]: Done waiting for pending navigations. Status: ok
+[1600715533.610][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"span#recaptcha-anchor > div:nth-of-type(1)"}
+  (Session info: chrome=85.0.4183.102)
+[1600715533.818][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] COMMAND FindElement {
+   "using": "css selector",
+   "value": "span#recaptcha-anchor > div:nth-of-type(1)"
+}
+[1600715533.818][INFO]: Waiting for pending navigations...
+[1600715533.820][INFO]: Done waiting for pending navigations. Status: ok
+[1600715533.833][INFO]: Waiting for pending navigations...
+[1600715533.834][INFO]: Done waiting for pending navigations. Status: ok
+[1600715533.835][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"span#recaptcha-anchor > div:nth-of-type(1)"}
+  (Session info: chrome=85.0.4183.102)
+[1600715534.060][INFO]: [af8cf9e451d00e63de2cb15237bf3ed2] COMMAND FindElement {
+   "using": "css selector",
+   "value": "span#recaptcha-anchor > div:nth-of-type(1)"
+}
+[1600715534.098][INFO]: resolved localhost to ["::1","127.0.0.1"]
