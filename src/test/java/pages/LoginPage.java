@@ -1,6 +1,5 @@
 package pages;
 
-import base.BaseTest;
 import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.SelenideElement;
 

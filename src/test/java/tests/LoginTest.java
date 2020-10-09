@@ -39,7 +39,8 @@ public class LoginTest extends BaseTest {
                     .logout();
 
         } catch (Throwable ex) {
-            Assert.fail("Desculpe, ocorreu o seguinte erro:");
+            Assert.fail("Desculpe, ocorreu o seguinte erro: " + ex.getMessage());
+
         }
     }
 

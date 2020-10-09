@@ -1,4 +1,6 @@
 package tests;
 
-public class PessoaFTest {
+import base.BaseTest;
+
+public class PessoaFTest extends BaseTest {
 }
