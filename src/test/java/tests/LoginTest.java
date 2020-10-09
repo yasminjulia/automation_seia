@@ -1,6 +1,7 @@
 package tests;
 
 import base.BaseTest;
+import org.junit.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
@@ -20,15 +21,15 @@ public class LoginTest extends BaseTest {
     @DataProvider(name = "massa")
     public Object[][] massaProvider() {
         return new Object[][]{
-                {"jose.1", "@123456"},
-                {"vanesas.dias", "@123456"},
-                {"farluse.gomes", "@123456"},
-                {"vilma.lessa", "@123456"},
+                {"giselemota", "@963741"},
+                {"luciana.debrito", "@963741"},
+                {"pereirajosedelaide", "@963741"},
+                {"priscila.soares", "@963741"},
         };
     }
 
     @Test(dataProvider = "massa")
-    public void loggedUser(String email, String pass) {
+    public void loggedUser(String email, String pass){
         try {
             login
                     .open()
@@ -37,14 +38,13 @@ public class LoginTest extends BaseTest {
                     .checkLogin(email)
                     .logout();
 
-        } catch (Exception ex) {
-            ex.printStackTrace();
+        } catch (Throwable ex) {
+            Assert.fail("Desculpe, ocorreu o seguinte erro:");
         }
     }
 
     @Test(dataProvider = "massa-login")
     public void LoginAlerts(String email, String pass, String expectAlert) {
-
 
         login
                 .open()

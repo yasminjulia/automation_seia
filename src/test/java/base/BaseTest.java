@@ -13,7 +13,7 @@ public class BaseTest {
     @BeforeMethod
     public void start() {
         Configuration.browser = "chrome";
-        Configuration.baseUrl = "http://10.90.2.65";
+        Configuration.baseUrl = "http://10.90.2.22";
         Configuration.timeout = 50000;
 
         login = new LoginPage();

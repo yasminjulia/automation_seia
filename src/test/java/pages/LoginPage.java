@@ -4,6 +4,8 @@ import base.BaseTest;
 import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.SelenideElement;
 
+import java.util.NoSuchElementException;
+
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selenide.*;
 
@@ -22,7 +24,7 @@ public class LoginPage {
         $("#btnEntrar").click();
         return this;
     }
-    public LoginPage checkLogin(String email){
+    public LoginPage checkLogin(String email) throws NoSuchElementException {
         $("form[name='j_idt34']  tbody > tr > td:nth-of-type(4)").shouldHave(text(email));
         return this;
     }
