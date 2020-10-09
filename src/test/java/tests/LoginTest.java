@@ -21,7 +21,7 @@ public class LoginTest extends BaseTest {
     @DataProvider(name = "massa")
     public Object[][] massaProvider() {
         return new Object[][]{
-                {"giselemota", "@963741"},
+                {"jose.1", "@963741"},
                 {"luciana.debrito", "@963741"},
                 {"pereirajosedelaide", "@963741"},
                 {"priscila.soares", "@963741"},
@@ -29,7 +29,7 @@ public class LoginTest extends BaseTest {
     }
 
     @Test(dataProvider = "massa")
-    public void loggedUser(String email, String pass){
+    public void loggedUser(String email, String pass) {
         try {
             login
                     .open()
@@ -39,8 +39,7 @@ public class LoginTest extends BaseTest {
                     .logout();
 
         } catch (Throwable ex) {
-            Assert.fail("Desculpe, ocorreu o seguinte erro: " + ex.getMessage());
-
+            Assert.fail("Não é possivel utilizar esse usuário: " + email);
         }
     }
 

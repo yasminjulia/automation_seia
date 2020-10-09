@@ -21,6 +21,11 @@ public class LoginPage {
     }
     public LoginPage pressBtn(){
         $("#btnEntrar").click();
+        SelenideElement span = $("#pnlLogin_content span");
+        if(span.isDisplayed()){
+            System.out.println(span.getText());
+        }
+
         return this;
     }
     public LoginPage checkLogin(String email) throws NoSuchElementException {
