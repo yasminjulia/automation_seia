@@ -21,10 +21,10 @@ public class LoginTest extends BaseTest {
     @DataProvider(name = "massa")
     public Object[][] massaProvider() {
         return new Object[][]{
-                {"jose.1", "@963741"},
-                {"luciana.debrito", "@963741"},
-                {"pereirajosedelaide", "@963741"},
-                {"priscila.soares", "@963741"},
+                {"jose.1", "@123456"},
+                {"luciana.debrito", "@123456"},
+                {"pereirajosedelaide", "@123456"},
+                {"priscila.soares", "@123456"},
         };
     }
 
