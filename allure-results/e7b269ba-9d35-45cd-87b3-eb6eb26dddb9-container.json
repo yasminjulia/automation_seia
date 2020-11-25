@@ -1,0 +1,18 @@
+{
+  "uuid": "e7b269ba-9d35-45cd-87b3-eb6eb26dddb9",
+  "name": "seia_selenium_selenide",
+  "children": [
+    "38ce755a-6260-402d-81d7-f799bf4391f8",
+    "b022614f-c66f-4638-ad9e-a1e566e39191",
+    "85e63201-c39d-418a-8e4e-e7d2a9a42e9e",
+    "c05dddeb-2244-4f05-9b4e-693e65b576d9",
+    "cee4b136-9303-4d86-8b3a-839ff7c05d53",
+    "3ea11c69-3195-40da-ade2-a3ad03203be1",
+    "2e97f37d-b692-4d37-b78b-4b6889238943"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1606320254985,
+  "stop": 1606320391821
+}

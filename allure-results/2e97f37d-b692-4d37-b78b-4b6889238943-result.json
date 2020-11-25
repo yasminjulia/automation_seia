@@ -1,0 +1,70 @@
+{
+  "name": "loggedUser",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "arg1",
+      "value": "@123456"
+    },
+    {
+      "name": "arg0",
+      "value": "priscila.soares"
+    }
+  ],
+  "start": 1606320385782,
+  "stop": 1606320391783,
+  "uuid": "2e97f37d-b692-4d37-b78b-4b6889238943",
+  "historyId": "e8b7a8ee9a3880061e991a88f2114748",
+  "fullName": "tests.LoginTest.loggedUser",
+  "labels": [
+    {
+      "name": "package",
+      "value": "tests.LoginTest"
+    },
+    {
+      "name": "testClass",
+      "value": "tests.LoginTest"
+    },
+    {
+      "name": "testMethod",
+      "value": "loggedUser"
+    },
+    {
+      "name": "parentSuite",
+      "value": "Default Suite"
+    },
+    {
+      "name": "suite",
+      "value": "seia_selenium_selenide"
+    },
+    {
+      "name": "subSuite",
+      "value": "tests.LoginTest"
+    },
+    {
+      "name": "host",
+      "value": "Yasmin-PC"
+    },
+    {
+      "name": "thread",
+      "value": "9288@Yasmin-PC.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "testng"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    }
+  ],
+  "links": []
+}

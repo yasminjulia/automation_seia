@@ -1,0 +1,25 @@
+{
+  "uuid": "dafd5acc-cd57-45a0-9c25-9673c25c6fce",
+  "name": "tests.PessoaFTest.setup",
+  "children": [
+    "4e276eea-99d9-4312-b84c-9891fdd6a45b"
+  ],
+  "description": "",
+  "befores": [
+    {
+      "name": "setup",
+      "status": "passed",
+      "stage": "finished",
+      "description": "",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1606320481511,
+      "stop": 1606320515612
+    }
+  ],
+  "afters": [],
+  "links": [],
+  "start": 1606320481511,
+  "stop": 1606320515612
+}

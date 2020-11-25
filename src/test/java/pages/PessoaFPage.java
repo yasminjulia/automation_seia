@@ -129,30 +129,39 @@ public class PessoaFPage {
             $("input#tabviewpf\\:formdocumentos\\:lblFileUpload_input").uploadFile(doc);
 
             $("button#tabviewpf\\:formdocumentos\\:botaoSalvar").click();
-            //Fechar popup de sucesso antes de fechar a div documento
-            $(".ui-growl-icon-close.ui-icon.ui-icon-closethick").hover().click();
+
+
             $("div#tabviewpf\\:formdocumentos\\:dialogdocumentos .ui-icon.ui-icon-closethick").click();
             //btn avançar
             $("button#form_avancar\\:btnAvancar > .ui-button-text").click();
             //aba telefone
-            $("#tabviewpf:formtelefone:linkDialogTelefone").click();
+            $("[title='Incluir Telefone']").click();
             //Lista com tipo de telefone
-            Select selectTel = new Select($("#tabviewpf:formdialogs:idcombotipotelefoneNew"));
+            Select selectTel = new Select($("select#tabviewpf\\:formdialogs\\:idcombotipotelefoneNew"));
             selectTel.selectByValue("3");
-            $("#tabviewpf:formdialogs:numeroNew").sendKeys(cel);
+
+            SelenideElement tel = $("input#tabviewpf\\:formdialogs\\:numeroNew");
+            tel.click();
+            tel.sendKeys(cel);
             $("button#tabviewpf\\:formdialogs\\:btnSalvar > .ui-button-text").click();
             //Fecha a div
             $("div#tabviewpf\\:formdialogs\\:telefoneDialog .ui-icon.ui-icon-closethick").click();
             //Btn Avançar
             $("button#form_avancar\\:btnAvancar > .ui-button-text").click();
             //Aba endereço
-            $("input#tabviewpf\\:formEnderecoPesquisaCep\\:cep").sendKeys(cep);
+
+            SelenideElement cp = $("input#tabviewpf\\:formEnderecoPesquisaCep\\:cep");
+            cp.click();
+            cp.sendKeys(cep);
+            $("form#tabviewpf\\:formEndereco").click();
             $("input#tabviewpf\\:txtNumEndereco").sendKeys(n);
             $("button#tabviewpf\\:btnSalvar > .ui-button-text").click();
             $("button#form_avancar\\:btnAvancar > .ui-button-text").click();
             //Aba Procurador
             $("[title='Incluir Procurador']").click();
-            $("input#tabviewpf\\:formpesquisacpfproc\\:cpfproc").sendKeys(cpf);
+            SelenideElement proc = $("input#tabviewpf\\:formpesquisacpfproc\\:cpfproc");
+            proc.click();
+            proc.sendKeys(cpf);
             $("[title='Consultar']").click();
             $("button#tabviewpf\\:formpessoafisicaprocurador\\:btnSalvar > .ui-button-text").click();
             //Finaliza cadastro

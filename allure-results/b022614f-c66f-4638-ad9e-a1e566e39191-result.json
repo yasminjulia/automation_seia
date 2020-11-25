@@ -1,0 +1,74 @@
+{
+  "name": "LoginAlerts",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "arg2",
+      "value": "Por favor, preencha os dados de acesso."
+    },
+    {
+      "name": "arg1",
+      "value": "@123456"
+    },
+    {
+      "name": "arg0",
+      "value": ""
+    }
+  ],
+  "start": 1606320305107,
+  "stop": 1606320308552,
+  "uuid": "b022614f-c66f-4638-ad9e-a1e566e39191",
+  "historyId": "bdffdea6ae97f1cf3dc1e9f37ffe6f96",
+  "fullName": "tests.LoginTest.LoginAlerts",
+  "labels": [
+    {
+      "name": "package",
+      "value": "tests.LoginTest"
+    },
+    {
+      "name": "testClass",
+      "value": "tests.LoginTest"
+    },
+    {
+      "name": "testMethod",
+      "value": "LoginAlerts"
+    },
+    {
+      "name": "parentSuite",
+      "value": "Default Suite"
+    },
+    {
+      "name": "suite",
+      "value": "seia_selenium_selenide"
+    },
+    {
+      "name": "subSuite",
+      "value": "tests.LoginTest"
+    },
+    {
+      "name": "host",
+      "value": "Yasmin-PC"
+    },
+    {
+      "name": "thread",
+      "value": "9288@Yasmin-PC.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "testng"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    }
+  ],
+  "links": []
+}

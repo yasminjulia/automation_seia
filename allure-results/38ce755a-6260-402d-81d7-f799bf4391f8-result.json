@@ -1,0 +1,74 @@
+{
+  "name": "LoginAlerts",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "arg2",
+      "value": "A senha está incorreta! O acesso é bloqueado após 3 tentativas"
+    },
+    {
+      "name": "arg1",
+      "value": "123456"
+    },
+    {
+      "name": "arg0",
+      "value": "jose.1"
+    }
+  ],
+  "start": 1606320257583,
+  "stop": 1606320304624,
+  "uuid": "38ce755a-6260-402d-81d7-f799bf4391f8",
+  "historyId": "5d4f90662bc464e7721d8cb9b342fe31",
+  "fullName": "tests.LoginTest.LoginAlerts",
+  "labels": [
+    {
+      "name": "package",
+      "value": "tests.LoginTest"
+    },
+    {
+      "name": "testClass",
+      "value": "tests.LoginTest"
+    },
+    {
+      "name": "testMethod",
+      "value": "LoginAlerts"
+    },
+    {
+      "name": "parentSuite",
+      "value": "Default Suite"
+    },
+    {
+      "name": "suite",
+      "value": "seia_selenium_selenide"
+    },
+    {
+      "name": "subSuite",
+      "value": "tests.LoginTest"
+    },
+    {
+      "name": "host",
+      "value": "Yasmin-PC"
+    },
+    {
+      "name": "thread",
+      "value": "9288@Yasmin-PC.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "testng"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    }
+  ],
+  "links": []
+}

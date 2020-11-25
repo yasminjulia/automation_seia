@@ -1,0 +1,61 @@
+{
+  "name": "fazCadastro",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1606320516020,
+  "stop": 1606320536351,
+  "uuid": "4e276eea-99d9-4312-b84c-9891fdd6a45b",
+  "historyId": "e582be53ff6d6ef9c0ae41f3cc61c3f3",
+  "fullName": "tests.PessoaFTest.fazCadastro",
+  "labels": [
+    {
+      "name": "package",
+      "value": "tests.PessoaFTest"
+    },
+    {
+      "name": "testClass",
+      "value": "tests.PessoaFTest"
+    },
+    {
+      "name": "testMethod",
+      "value": "fazCadastro"
+    },
+    {
+      "name": "parentSuite",
+      "value": "Default Suite"
+    },
+    {
+      "name": "suite",
+      "value": "seia_selenium_selenide"
+    },
+    {
+      "name": "subSuite",
+      "value": "tests.PessoaFTest"
+    },
+    {
+      "name": "host",
+      "value": "Yasmin-PC"
+    },
+    {
+      "name": "thread",
+      "value": "11080@Yasmin-PC.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "testng"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    }
+  ],
+  "links": []
+}
