@@ -7,6 +7,7 @@ ___
 ## Ambiente
 * IntellJ Idea
 * JDK 1.8
+* Chromedriver
 ___
 ## Dependências
 * Selenium-java
