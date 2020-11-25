@@ -12,7 +12,7 @@ public class PessoaFTest extends BaseTest {
     public void setup() {
         login
                 .open()
-                .with("thiago.cardoso", "@123456")
+                .with("joao.borges", "@123456")
                 .pressBtn();
     }
 
@@ -35,7 +35,7 @@ public class PessoaFTest extends BaseTest {
         try {
             consult
                     .menuConsultaPF()
-                    .consultaPFporCpf("02649874546")
+                    .consultaPFporCpf("05160177566")
                     .pressBtnConsultar()
                     .retornaConsulta();
         } catch (InterruptedException e) {

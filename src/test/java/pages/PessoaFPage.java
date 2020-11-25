@@ -25,9 +25,13 @@ public class PessoaFPage {
         return this;
     }
 
-    public PessoaFPage consultaPFporCpf(String cpf) {
+    public PessoaFPage consultaPFporCpf(String cpf) throws InterruptedException {
         //Campo de cpf para consultar
-        $("input#filtroPessoaFisica\\:txtNumCpf").setValue(cpf);
+        Thread.sleep(4000);
+        SelenideElement cp = $("input#filtroPessoaFisica\\:txtNumCpf");
+        cp.click();
+        cp.sendKeys(cpf);
+
         return this;
     }
 
